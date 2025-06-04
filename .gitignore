@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Packaging metadata
+*.egg-info/
+*.egg-info/*
+
+# Logs
+*.jsonl
+
+# Virtual environment (if you created one)
+.venv/

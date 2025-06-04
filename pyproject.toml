@@ -1,0 +1,14 @@
+[project]
+name = "ollama_chat"
+version = "0.1.0"
+description = "CLI tool for chatting with Ollama models"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+dependencies = ["requests"]
+requires-python = ">=3.8"
+
+[project.scripts]
+ollama-chat = "ollama_chat.main:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
